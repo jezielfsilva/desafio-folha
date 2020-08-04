@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-nav {
+    width: 100%;
+    height: 17vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #46a8ff;
+}
+
+.box-nav {
+    width: 88%;
+    height: 17vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.box-hamb {
+    width: 5vw;
+    height: 17vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-logo-text {
+    width: 50%;
+    height: 18vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.main-logo {
+    width: 19vw;
+    height: 18vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.main-text {
+    color: #ffffff;
+    height: 8vh;
+    letter-spacing: 0.02em;
+}
+
+.box-buttons {
+    width: 20vw;
+    height: 11vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.click {
+    width: 8.5vw;
+    height: 5vh;
+    color: #06129c;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px #222222;
+}
+
+.click2 {
+    width: 8.5vw;
+    height: 5vh;
+    color: #0088ff;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px #222222;
+}
+
+.container-slide {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+}
+
+.box-slide {
+    width: 90%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: cyan;
+}
+
+.slide {
+    width: 85%;
+    height: 66vh;
+    background-image: url('./img/desktop/image_rotate.png');
+    background-size: cover;
+}
+
+.slide-two {
+    width: 85%;
+    height: 66vh;
+    background-image: url('./img/desktop/divoltis_porris-01.png');
+    background-size: cover;
+}
+
+.slide-tree {
+    width: 85%;
+    height: 66vh;
+    background-image: url('./img/desktop/divoltis_porris-03.png');
+    background-size: cover;
+}
+
+.container-top {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-photos {
+    width: 85%;
+    height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.title {
+    width: 100%;
+}
+
+.photo {
+    width: 31.5%;
+    height: 32vh;
+    background-image: url('./img/desktop/highlight-01.png');
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.photo-two {
+    width: 31.5%;
+    height: 32vh;
+    background-image: url('./img/desktop/highlight-02.png');
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.photo-tree {
+    width: 31.5%;
+    height: 32vh;
+    background-image: url('./img/desktop/highlight-03.png');
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.text {
+    width: 9vw;
+    height: 4vh;
+    color: #ffffff;
+    background-color: #f13e08d5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.text-two {
+    width: 7vw;
+    height: 4vh;
+    color: #ffffff;
+    background-color: #f13e08d5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.text-tree {
+    width: 8vw;
+    height: 4vh;
+    color: #ffffff;
+    background-color: #f13e08d5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.container-divoltis {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-content {
+    width: 85%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title-content {
+    width: 100%;
+}
+
+.box-photos-content {
+    width: 70%;
+    height: 95vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 29vw;
+    height: 44vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.photo-content {
+    width: 91.3%;
+    height: 32vh;
+}
+
+.subtitle-content {
+    font-size: 1em;
+    color: #46a8ff;
+}
+
+.text-content {
+    width: 23vw;
+}
+
+.trace {
+    width: 26.5vw;
+    height: 0.1vh;
+    background-color: #bebcbc;
+}
+
+.box-advertising {
+    width: 23vw;
+    height: 95vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.advertising {
+    height: 90%;
+}
+
+.container-pre-final {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: crimson;
+}
+
+.box-paisis {
+    width: 28vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: darkgoldenrod;
+}
+
+.title-paisis {
+    color: #46a8ff;
+}
+
+.item-paisis {
+    width: 26vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box-pirulitá {
+    width: 28vw;
+    height: 75vh;
+    background-color: darkmagenta;
+}
+
+.box-cevadiss {
+    width: 28vw;
+    height: 75vh;
+    background-color: gray;
+}
