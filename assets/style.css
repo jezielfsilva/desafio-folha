@@ -84,7 +84,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: crimson;
 }
 
 .box-slide {
@@ -93,8 +92,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
-    background-color: cyan;
 }
 
 .slide {
@@ -209,26 +206,38 @@
     transform: translateY(-50%);
   }
   
-  .tns-controls > button:first-child,
-  .tns-controls > button:last-child {
-    width: 55px;
+  .tns-controls > button:first-child {
+    width: 53px;
     height: 55px;
     border-radius: 50%;
-    border-color: #ffffff;
     border: none;
     outline: none;
+    box-shadow: 1px 1px 2px black;
   
     pointer-events: auto;
   
     background: url('./img/desktop/arrow_left-icon.png');
-    background-size: contain;
+    background-size: auto;
     background-repeat: no-repeat;
     background-position: center;
     background-color: #ffffff;
   }
   
   .tns-controls > button:last-child {
-    transform: rotate(180deg);
+    width: 53px;
+    height: 55px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 2px black;
+  
+    pointer-events: auto;
+
+    background: url('./img/desktop/arrow_right-icon.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ffffff;
   }
 
 .container-top {
