@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <title>fake folha de são paulo</title>
         <link rel="stylesheet" type="text/css" href="./assets/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
     </head>
     <body>
         <header class="container-nav">
@@ -27,16 +28,16 @@
             <section class="container-slide">
                 <div class="box-slide">
                     <div class="slide">
-                        <p>MUSSUM IPSUM CACILDS</p>
-                        <p>Pra lá, depois divoltis porris, paradis. Paisis, filhis, espiritis santis</p>
+                        <p class="title-slide">MUSSUM IPSUM CACILDS</p>
+                        <p class="text-slide">Pra lá, depois divoltis porris, paradis. Paisis, filhis, espiritis santis</p>
                     </div>
                     <div class="slide-two">
-                        <p>CONSETIS</p>
-                        <p>Manduma pindureta quium dia nois paga. Sapien in monti palavris</p>
+                        <p class="title-slide-two">CONSETIS</p>
+                        <p class="text-slide-two">Manduma pindureta quium dia nois paga. Sapien in monti palavris</p>
                     </div>
                     <div class="slide-tree">
-                        <p>MATIS</p>
-                        <p>Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa.</p>
+                        <p class="title-slide-tree">MATIS</p>
+                        <p class="text-slide-tree">Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa.</p>
                     </div>
                 </div>
             </section>
@@ -157,10 +158,29 @@
                     </figure>
                 </div>
             </div>
-            <div>
+            <div class="logo-text">
                 <img src="./assets/img/desktop/logo_footer.png">
-                <p>Copyright Folha de S.Paulo. Todos os direitos reservados. É proibida a reprodução do conteúdo desta página em qualquer meio de comunicação, eletrônico ou impresso, sem autorizção escrita da Folhapress(pesquisa@folhapress.com.br).</p>
+                <p class="text-final">Copyright Folha de S.Paulo. Todos os direitos reservados. É proibida a reprodução do conteúdo desta página em qualquer meio de comunicação, eletrônico ou impresso, sem autorizção escrita da Folhapress(pesquisa@folhapress.com.br).</p>
             </div>
         </footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+
+  <script>
+    window.onload = function() {
+      var slider = tns({
+        container: '.box-slide',
+        items: 1,
+        slideBy: 'page',
+        autoplayButtonOutput: false,
+        controls: true,
+        nav: true,
+        controlsPosition: 'bottom',
+        navPosition: 'bottom',
+        controlsText: ['', ''],
+        mouseDrag: true,
+      });
+    }
+  </script>
     </body>
 </html>

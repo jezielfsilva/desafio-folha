@@ -104,19 +104,132 @@
     background-size: cover;
 }
 
+.title-slide {
+    color: #ffffff;
+    background-color: #46a8ff;
+    width: 19vw;
+    height: 3vh;
+    display: flex;
+    align-items: center;
+    margin-left: 2em;
+    margin-top: 21em;
+}
+
+.text-slide {
+    color: #ffffff;
+    font-size: 1.8em;
+    width: 34vw;
+    margin-left: 1em;
+}
+
 .slide-two {
     width: 85%;
     height: 66vh;
-    background-image: url('./img/desktop/divoltis_porris-01.png');
+    background-image: url('./img/desktop/image_rotate.png');
     background-size: cover;
+}
+
+.title-slide-two {
+    color: #ffffff;
+    background-color: #46a8ff;
+    width: 7vw;
+    height: 3vh;
+    display: flex;
+    align-items: center;
+    margin-left: 2em;
+    margin-top: 21em;
+}
+
+.text-slide-two {
+    color: #ffffff;
+    font-size: 1.8em;
+    width: 34vw;
+    margin-left: 1em;
 }
 
 .slide-tree {
     width: 85%;
     height: 66vh;
-    background-image: url('./img/desktop/divoltis_porris-03.png');
+    background-image: url('./img/desktop/image_rotate.png');
     background-size: cover;
 }
+
+.title-slide-tree {
+    color: #ffffff;
+    background-color: #46a8ff;
+    width: 5vw;
+    height: 3vh;
+    display: flex;
+    align-items: center;
+    margin-left: 2em;
+    margin-top: 21em;
+}
+
+.text-slide-tree {
+    color: #ffffff;
+    font-size: 1.8em;
+    width: 35vw;
+    margin-left: 1em;
+}
+
+.tns-outer {
+    position: relative;
+    width: 90%;
+  }
+  
+  .tns-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    margin: .5rem 0;
+  }
+  
+  .tns-nav > button {
+    width: 10px;
+    height: 10px;
+    margin: 0 8px;
+    border: 1px solid #979696;
+  
+    outline: none;
+    border-radius: 50%;
+    background: #979696;
+  }
+  
+  .tns-controls {
+    position: absolute;
+    top: 50%;
+    left: -23px;
+    display: flex;
+    justify-content: space-between;
+    width: 104%;
+  
+    pointer-events: none;
+  
+    transform: translateY(-50%);
+  }
+  
+  .tns-controls > button:first-child,
+  .tns-controls > button:last-child {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border-color: #ffffff;
+    border: none;
+    outline: none;
+  
+    pointer-events: auto;
+  
+    background: url('./img/desktop/arrow_left-icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ffffff;
+  }
+  
+  .tns-controls > button:last-child {
+    transform: rotate(180deg);
+  }
 
 .container-top {
     width: 100%;
@@ -341,6 +454,10 @@
 .container-final {
     width: 100%;
     height: 22vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     background-color: #363a53;
 }
 
@@ -371,4 +488,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.logo-text {
+    width: 62vw;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-final {
+    width: 48vw;
+    color: #ffffff;
+    font-size: 0.8em;
 }
