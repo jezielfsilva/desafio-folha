@@ -552,6 +552,18 @@
         display: none;
     }
 
+    .tns-controls {
+        left: unset;
+        width: 100%;
+    }
+
+    .tns-controls > button:first-child, 
+    .tns-controls > button:last-child {
+        box-shadow: unset;
+        background: transparent;
+        background-color: transparent;
+    }
+
     .container-top {
         height: 128vh;
     }
