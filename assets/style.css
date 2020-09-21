@@ -552,6 +552,44 @@
         display: none;
     }
 
+    .container-slide {
+        height: 64vh;
+    }
+
+    .box-slide {
+        height: 40vh;
+    }
+
+    .slide, .slide-two, .slide-tree {
+        background-size: 160%;
+        background-position: center;
+    }
+
+    .title-slide {
+        width: 50vw;
+        margin-top: 17em;
+        margin-left: unset;
+        justify-content: center;
+    }
+
+    .title-slide-two {
+        width: 22vw;
+        margin-top: 17em;
+        margin-left: unset;
+        justify-content: center;
+    }
+
+    .title-slide-tree {
+        width: 16vw;
+        margin-top: 17em;
+        margin-left: unset;
+        justify-content: center;
+    }
+
+    .text-slide, .text-slide-two, .text-slide-tree {
+        display: none;
+    }
+
     .tns-controls {
         left: unset;
         width: 100%;
