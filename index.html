@@ -4,7 +4,6 @@
         <meta charset="utf-8">
         <title>fake folha de são paulo</title>
         <link rel="stylesheet" type="text/css" href="./assets/style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
@@ -29,18 +28,25 @@
         <main>
             <section class="container-slide">
                 <div class="box-slide">
-                    <div class="slide">
+                    <div class="slide fade">
                         <p class="title-slide">MUSSUM IPSUM CACILDS</p>
                         <p class="text-slide">Pra lá, depois divoltis porris, paradis. Paisis, filhis, espiritis santis</p>
                     </div>
-                    <div class="slide-two">
+                    <div class="slide fade">
                         <p class="title-slide-two">CONSETIS</p>
                         <p class="text-slide-two">Manduma pindureta quium dia nois paga. Sapien in monti palavris</p>
                     </div>
-                    <div class="slide-tree">
+                    <div class="slide fade">
                         <p class="title-slide-tree">MATIS</p>
                         <p class="text-slide-tree">Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa.</p>
                     </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095</a>
+                </div>
+                <div class="box-dots">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
                 </div>
             </section>
             <section class="container-top">
@@ -168,24 +174,6 @@
                 <p class="text-final">Copyright Folha de S.Paulo. Todos os direitos reservados. É proibida a reprodução do conteúdo desta página em qualquer meio de comunicação, eletrônico ou impresso, sem autorizção escrita da Folhapress(pesquisa@folhapress.com.br).</p>
             </div>
         </footer>
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
-
-  <script>
-    window.onload = function() {
-      var slider = tns({
-        container: '.box-slide',
-        items: 1,
-        slideBy: 'page',
-        autoplayButtonOutput: false,
-        controls: true,
-        nav: true,
-        controlsPosition: 'bottom',
-        navPosition: 'bottom',
-        controlsText: ['', ''],
-        mouseDrag: true,
-      });
-    }
-  </script>
+        <script src="./assets/js/main.js"></script>
     </body>
 </html>
