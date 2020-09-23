@@ -516,6 +516,103 @@
     font-size: 0.8em;
 }
 
+@media (max-width: 768px) {
+    .main-logo {
+        width: 30vw;
+    }
+
+    .box-logo-text {
+        width: 40%;
+        justify-content: flex-end;
+    }
+
+    .main-text {
+        display: none;
+    }
+
+    .box-buttons {
+        width: 23.5vw;
+    }
+
+    .click, .click2 {
+        width: 11vw;
+        height: 6vh;
+    }
+
+    .fab {
+        margin-right: 0.3em;
+    }
+
+    .slide {
+        background-position: 40%;
+    }
+
+    .title-slide {
+        width: 27vw;
+    }
+
+    .title-slide-two {
+        width: 11vw;
+    }
+
+    .title-slide-tree {
+        width: 7vw;
+    }
+
+    .prev {
+        left: 32px;
+        padding: 14px;
+        font-size: 26px;
+    }
+
+    .next {
+        right: 32px;
+        padding: 14px;
+        font-size: 26px;
+    }
+
+    .photo, .photo-two, .photo-tree {
+        background-position: 50%;
+    }
+
+    .text {
+        width: 13vw;
+    }
+
+    .box-photos-content {
+        width: 100%;
+    }
+
+    .item {
+        width: 42vw;
+        align-items: center;
+    }
+
+    .subtitle-content {
+        width: 38vw;
+    }
+
+    .text-content {
+        width: 38vw;
+    }
+
+    .trace {
+        width: 38.5vw;
+    }
+
+    .box-advertising {
+        display: none;
+    }
+
+    .text-paisis {
+        font-size: 0.9em;
+    }
+
+    .photo-pirulita, .photo-cevadiss {
+        width: 53%;
+    }
+}
+
 @media (max-width: 425px) {
     .box-hamb {
         width: 10vw;
