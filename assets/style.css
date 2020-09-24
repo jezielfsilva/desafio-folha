@@ -361,7 +361,7 @@
     width: 23vw;
 }
 
-.trace {
+.trace, .trace-two {
     width: 26.5vw;
     height: 0.1vh;
     background-color: #bebcbc;
@@ -604,12 +604,32 @@
         display: none;
     }
 
+    .box-paisis, .box-pirulitá, .box-cevadiss {
+        width: 29vw;
+    }
+
+    .title-paisis {
+        font-size: 1.4em;
+    }
+
     .text-paisis {
         font-size: 0.9em;
     }
 
+    .trace-two {
+        width: 25.5vw;
+    }
+
     .photo-pirulita, .photo-cevadiss {
         width: 53%;
+    }
+
+    .box-text-arrow {
+        width: 25.2vw;
+    }
+
+    .text-return {
+        width: 18vw;
     }
 }
 
@@ -754,7 +774,7 @@
         letter-spacing: 0.01em;
     }
 
-    .trace {
+    .trace, .trace-two {
         width: 90vw;
     }
 
@@ -795,6 +815,10 @@
         width: 90vw;
         height: 30vh;
         justify-content: space-between;
+    }
+
+    .photo-pirulita, .photo-cevadiss {
+        width: 44%;
     }
 
     .box-title-text {
@@ -841,5 +865,11 @@
     .text-final {
         width: 97vw;
         font-size: 1em;
+    }
+}
+
+@media (max-width: 375px) {
+    .photo-logo {
+        width: 60vw;
     }
 }
