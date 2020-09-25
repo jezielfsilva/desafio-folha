@@ -763,6 +763,10 @@
         height: 55vh;
     }
 
+    .subtitle-content {
+        width: 90vw;
+    }
+
     .photo-content {
         width: 100%;
         height: 40vh;
@@ -871,5 +875,39 @@
 @media (max-width: 375px) {
     .photo-logo {
         width: 60vw;
+    }
+
+    .title-slide {
+        width: 56vw;
+    }
+
+    .title-slide, .title-slide-two, .title-slide-tree {
+        font-size: 0.9em;
+        margin-top: 13.5em;
+    }
+
+    .text {
+        width: 30vw;
+    }
+
+    .text-content {
+        font-size: 1.1em;
+    }
+
+    .text-paisis {
+        font-size: 1em;
+    }
+
+    .box-text-arrow {
+        width: 48vw;
+    }
+
+    .text-return {
+        width: 35vw;
+        font-size: 0.8em;
+    }
+
+    .text-final {
+        font-size: 0.8em;
     }
 }
